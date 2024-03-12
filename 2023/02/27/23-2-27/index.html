@@ -4,16 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>归档: 2022/2 | 作者自己猜</title>
+  <title>this指向 | 作者自己猜</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="是一些小知识">
-<meta property="og:type" content="website">
-<meta property="og:title" content="作者自己猜">
-<meta property="og:url" content="http://example.com/archives/2022/02/index.html">
+  <meta name="description" content="this指向是代指当前上下文的一个关键字      new实例的级别最高 然后就是call,bind,apply改变函数指向 obj.foo调用 接着是foo      在 对象方法中,this指代当前的对象本身,他允许在方法内部访问和操作当前对象的属性和方法      在 构造函数中,this指代正在创建的对象实例,它可以用来初始化对象的属性和调用对象的方法      在 事件处理程序">
+<meta property="og:type" content="article">
+<meta property="og:title" content="this指向">
+<meta property="og:url" content="http://example.com/2023/02/27/23-2-27/index.html">
 <meta property="og:site_name" content="作者自己猜">
-<meta property="og:description" content="是一些小知识">
+<meta property="og:description" content="this指向是代指当前上下文的一个关键字      new实例的级别最高 然后就是call,bind,apply改变函数指向 obj.foo调用 接着是foo      在 对象方法中,this指代当前的对象本身,他允许在方法内部访问和操作当前对象的属性和方法      在 构造函数中,this指代正在创建的对象实例,它可以用来初始化对象的属性和调用对象的方法      在 事件处理程序">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-02-27T12:01:23.000Z">
+<meta property="article:modified_time" content="2024-02-27T12:03:24.322Z">
 <meta property="article:author" content="mcj">
+<meta property="article:tag" content="js">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="作者自己猜" type="application/atom+xml">
@@ -73,39 +76,71 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2022" class="archive-year">2022</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2022/02/01/22-2-01/" class="archive-article-date">
-  <time class="dt-published" datetime="2022-02-01T07:57:56.000Z" itemprop="datePublished">2月 1</time>
+        <section id="main"><article id="post-23-2-27" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/02/27/23-2-27/" class="article-date">
+  <time class="dt-published" datetime="2023-02-27T12:01:23.000Z" itemprop="datePublished">2023-02-27</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2022/02/01/22-2-01/">react中常用的的hooks</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      this指向
     </h1>
   
 
-    </header>
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h3 id=""><a href="#" class="headerlink" title=""></a></h3><pre><code>     this指向是代指当前上下文的一个关键字
+     new实例的级别最高 然后就是call,bind,apply改变函数指向 obj.foo调用 接着是foo
+     在 对象方法中,this指代当前的对象本身,他允许在方法内部访问和操作当前对象的属性和方法
+     在 构造函数中,this指代正在创建的对象实例,它可以用来初始化对象的属性和调用对象的方法
+     在 事件处理程序中，this指代触发事件的元素，它可以用来访问和操作触发事件的元素的属性和方法
+     在 全局作用域中，this的值取决于执行环境 在浏览器中它通常指向全局对象的window；在node.js环境中，它通常指向全局的“global”;
+     在箭头函数中 this的值是由定义时的上下文决定，而不是调用时的上下文 这意味这箭头函数内部的this与外部的this相同
+</code></pre>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/02/27/23-2-27/" data-id="cltoaraag00081gryf9e4edyr" data-title="this指向" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/" rel="tag">js</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2023/03/12/23-3-12/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前一篇</strong>
+      <div class="article-nav-title">
+        
+          vue2和vue3的区别
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2023/01/15/23-01-15(2)/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">Promise和async/await</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 
 </section>

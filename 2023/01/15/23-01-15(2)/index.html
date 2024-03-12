@@ -4,16 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>归档: 2022/2 | 作者自己猜</title>
+  <title>Promise和async/await | 作者自己猜</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="是一些小知识">
-<meta property="og:type" content="website">
-<meta property="og:title" content="作者自己猜">
-<meta property="og:url" content="http://example.com/archives/2022/02/index.html">
+  <meta name="description" content="1234567891011121314151617181920Promise和async&#x2F;await是常见的异步编程方式，它们可以让我们更好地处理异步编程中的问题。&#x2F;&#x2F; Promisefunction promise() &amp;#123;  return new Promise((resolve, reject) &#x3D;&gt; &amp;#123;    setTimeout(() &#x3D;&gt; &amp;#123;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Promise和async&#x2F;await">
+<meta property="og:url" content="http://example.com/2023/01/15/23-01-15(2)/index.html">
 <meta property="og:site_name" content="作者自己猜">
-<meta property="og:description" content="是一些小知识">
+<meta property="og:description" content="1234567891011121314151617181920Promise和async&#x2F;await是常见的异步编程方式，它们可以让我们更好地处理异步编程中的问题。&#x2F;&#x2F; Promisefunction promise() &amp;#123;  return new Promise((resolve, reject) &#x3D;&gt; &amp;#123;    setTimeout(() &#x3D;&gt; &amp;#123;">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-01-15T11:57:46.000Z">
+<meta property="article:modified_time" content="2024-02-27T11:59:06.585Z">
 <meta property="article:author" content="mcj">
+<meta property="article:tag" content="js">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="作者自己猜" type="application/atom+xml">
@@ -73,39 +76,64 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2022" class="archive-year">2022</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2022/02/01/22-2-01/" class="archive-article-date">
-  <time class="dt-published" datetime="2022-02-01T07:57:56.000Z" itemprop="datePublished">2月 1</time>
+        <section id="main"><article id="post-23-01-15(2)" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/01/15/23-01-15(2)/" class="article-date">
+  <time class="dt-published" datetime="2023-01-15T11:57:46.000Z" itemprop="datePublished">2023-01-15</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2022/02/01/22-2-01/">react中常用的的hooks</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      Promise和async/await
     </h1>
   
 
-    </header>
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h3 id=""><a href="#" class="headerlink" title=""></a></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">Promise和async/await是常见的异步编程方式，它们可以让我们更好地处理异步编程中的问题。</span><br><span class="line"></span><br><span class="line">// Promise</span><br><span class="line">function promise() &#123;</span><br><span class="line">  return new Promise((resolve, reject) =&gt; &#123;</span><br><span class="line">    setTimeout(() =&gt; &#123;</span><br><span class="line">      resolve(&#x27;done&#x27;);</span><br><span class="line">    &#125;, 1000);</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">promise().then((result) =&gt; console.log(result)); // &#x27;done&#x27;</span><br><span class="line"></span><br><span class="line">// async/await</span><br><span class="line">async function asyncFunc() &#123;</span><br><span class="line">  const result = await promise();</span><br><span class="line">  console.log(result);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">asyncFunc(); // &#x27;done&#x27;</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/01/15/23-01-15(2)/" data-id="cltoaraaf00041gry5d2yc63e" data-title="Promise和async/await" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/" rel="tag">js</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2023/02/27/23-2-27/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前一篇</strong>
+      <div class="article-nav-title">
+        
+          this指向
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2023/01/15/23-01-15/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">闭包和作用域</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 
 </section>

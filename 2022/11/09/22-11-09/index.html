@@ -4,16 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>作者自己猜</title>
+  <title>Scp命令部署项目 | 作者自己猜</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="是一些小知识">
-<meta property="og:type" content="website">
-<meta property="og:title" content="作者自己猜">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="一、将文件上传到服务器上 123a.scp [文件名]  [服务器用户名]@[服务的地址]:[文件路径]b.scp  d:&#x2F;2104B&#x2F;map.jpg  root@192.168.88.88:&#x2F;www&#x2F;2104B会要求你输入服务器密码  密码正确则开始上传  二、将文件夹上到服务器上 可在 scp 命令之后 加 [-r ] 表示要递归上传 123a.scp -r [文件名]  [服务器用户名]@[">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Scp命令部署项目">
+<meta property="og:url" content="http://example.com/2022/11/09/22-11-09/index.html">
 <meta property="og:site_name" content="作者自己猜">
-<meta property="og:description" content="是一些小知识">
+<meta property="og:description" content="一、将文件上传到服务器上 123a.scp [文件名]  [服务器用户名]@[服务的地址]:[文件路径]b.scp  d:&#x2F;2104B&#x2F;map.jpg  root@192.168.88.88:&#x2F;www&#x2F;2104B会要求你输入服务器密码  密码正确则开始上传  二、将文件夹上到服务器上 可在 scp 命令之后 加 [-r ] 表示要递归上传 123a.scp -r [文件名]  [服务器用户名]@[">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-11-09T05:54:14.000Z">
+<meta property="article:modified_time" content="2024-02-27T11:52:43.954Z">
 <meta property="article:author" content="mcj">
+<meta property="article:tag" content="linux">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="作者自己猜" type="application/atom+xml">
@@ -73,197 +76,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-23-3-12" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/03/12/23-3-12/" class="article-date">
-  <time class="dt-published" datetime="2023-03-11T16:00:00.000Z" itemprop="datePublished">2023-03-12</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/03/12/23-3-12/">vue2和vue3的区别</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h3 id=""><a href="#" class="headerlink" title=""></a></h3><pre><code>性能优化：
-Vue 3引入了更好的虚拟DOM算法（Fragment:碎片化节点 Patching减少不必要的开销，提升性能），使得更新速度更快。
-Vue 3使用了Proxy代替Object.defineProperty来实现响应式数据，提高了性能。
-Tree-shaking支持有助于减小打包体积(将没有使用的模块代码移除掉，这样来达到删除无用代码的目的。)。
-###
-Composition API：
-Vue 3引入了Composition API，使得代码组织更加灵活和可复用，尤其适用于大型项目。
- Composition API可以更好地组织逻辑和状态，避免了Vue 2中逻辑难以维护的问题。
-###
-Typescript支持：
-Vue 3对Typescript的支持更加友好，提供了更好的类型推断和类型检查。
-###
-响应式系统：
-Vue 3 引入了 Proxy 来替代 Object.defineProperty 实现响应式，提供了 Composition API、setup 函数等新特性，优化了响应式数据缓存机制，使得开发体验更好，性能更高效。
-###
-编译优化：
-Vue 3 在编译优化方面引入了静态树提升、事件侦听器缓存等新特性，生成的代码更精简、包体积更小、性能更高，相比 Vue 2 有明显提升。
-</code></pre>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/03/12/23-3-12/" data-id="cltoaraah00091gry27dy08i1" data-title="vue2和vue3的区别" class="article-share-link"><span class="fa fa-share">分享</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vue/" rel="tag">vue</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-23-2-27" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/02/27/23-2-27/" class="article-date">
-  <time class="dt-published" datetime="2023-02-27T12:01:23.000Z" itemprop="datePublished">2023-02-27</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/02/27/23-2-27/">this指向</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h3 id=""><a href="#" class="headerlink" title=""></a></h3><pre><code>     this指向是代指当前上下文的一个关键字
-     new实例的级别最高 然后就是call,bind,apply改变函数指向 obj.foo调用 接着是foo
-     在 对象方法中,this指代当前的对象本身,他允许在方法内部访问和操作当前对象的属性和方法
-     在 构造函数中,this指代正在创建的对象实例,它可以用来初始化对象的属性和调用对象的方法
-     在 事件处理程序中，this指代触发事件的元素，它可以用来访问和操作触发事件的元素的属性和方法
-     在 全局作用域中，this的值取决于执行环境 在浏览器中它通常指向全局对象的window；在node.js环境中，它通常指向全局的“global”;
-     在箭头函数中 this的值是由定义时的上下文决定，而不是调用时的上下文 这意味这箭头函数内部的this与外部的this相同
-</code></pre>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/02/27/23-2-27/" data-id="cltoaraag00081gryf9e4edyr" data-title="this指向" class="article-share-link"><span class="fa fa-share">分享</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/" rel="tag">js</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-23-01-15(2)" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/01/15/23-01-15(2)/" class="article-date">
-  <time class="dt-published" datetime="2023-01-15T11:57:46.000Z" itemprop="datePublished">2023-01-15</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/01/15/23-01-15(2)/">Promise和async/await</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h3 id=""><a href="#" class="headerlink" title=""></a></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">Promise和async/await是常见的异步编程方式，它们可以让我们更好地处理异步编程中的问题。</span><br><span class="line"></span><br><span class="line">// Promise</span><br><span class="line">function promise() &#123;</span><br><span class="line">  return new Promise((resolve, reject) =&gt; &#123;</span><br><span class="line">    setTimeout(() =&gt; &#123;</span><br><span class="line">      resolve(&#x27;done&#x27;);</span><br><span class="line">    &#125;, 1000);</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">promise().then((result) =&gt; console.log(result)); // &#x27;done&#x27;</span><br><span class="line"></span><br><span class="line">// async/await</span><br><span class="line">async function asyncFunc() &#123;</span><br><span class="line">  const result = await promise();</span><br><span class="line">  console.log(result);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">asyncFunc(); // &#x27;done&#x27;</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/01/15/23-01-15(2)/" data-id="cltoaraaf00041gry5d2yc63e" data-title="Promise和async/await" class="article-share-link"><span class="fa fa-share">分享</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/" rel="tag">js</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-23-01-15" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/01/15/23-01-15/" class="article-date">
-  <time class="dt-published" datetime="2023-01-15T08:42:06.000Z" itemprop="datePublished">2023-01-15</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/01/15/23-01-15/">闭包和作用域</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h3 id=""><a href="#" class="headerlink" title=""></a></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">闭包和作用域是JavaScript中比较常见的概念。闭包可以让我们维护函数内的状态，作用域则决定了变量的可见范围。</span><br><span class="line"></span><br><span class="line">// 闭包</span><br><span class="line">function closure() &#123;</span><br><span class="line">  let i = 0;</span><br><span class="line">  return function () &#123;</span><br><span class="line">    return ++i;</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">const func = closure();</span><br><span class="line">console.log(func()); // 1</span><br><span class="line">console.log(func()); // 2</span><br><span class="line"></span><br><span class="line">// 作用域</span><br><span class="line">let a = 10;</span><br><span class="line"></span><br><span class="line">function foo() &#123;</span><br><span class="line">  let a = 20;</span><br><span class="line">  console.log(a); // 20</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">foo();</span><br><span class="line">console.log(a); // 10</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/01/15/23-01-15/" data-id="cltoaraaf00051gry17uh6zle" data-title="闭包和作用域" class="article-share-link"><span class="fa fa-share">分享</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/" rel="tag">js</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-22-11-09" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-22-11-09" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/11/09/22-11-09/" class="article-date">
   <time class="dt-published" datetime="2022-11-09T05:54:14.000Z" itemprop="datePublished">2022-11-09</time>
@@ -276,8 +89,8 @@ Vue 3 在编译优化方面引入了静态树提升、事件侦听器缓存等�
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/11/09/22-11-09/">Scp命令部署项目</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      Scp命令部署项目
     </h1>
   
 
@@ -323,17 +136,29 @@ Vue 3 在编译优化方面引入了静态树提升、事件侦听器缓存等�
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
+  
+    <a href="/2023/01/15/23-01-15/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前一篇</strong>
+      <div class="article-nav-title">
+        
+          闭包和作用域
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2022/08/07/22-8-07/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">Map和Set数据结构</div>
+    </a>
+  
+</nav>
 
   
+</article>
 
-
-  <nav id="page-nav">
-    
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">下一页 &raquo;</a>
-  </nav>
 
 </section>
         
